@@ -3,13 +3,13 @@ import {
     AiFillGithub 
 } from "react-icons/ai";
 import Image from "next/image";
-import deved from '../../../public/dev-ed-wave.png';
+import deved from '../../../public/dev-ed4.png';
 
 
 
 export default function Profile() {
 return (
-<section>
+<section className="pb-20 font-lato">
     <div className="text-center">
         <h2 className="text-5xl py-2 text-teal-600 font-medium">
             Juanita Afanador Kowalski </h2>
@@ -26,11 +26,15 @@ return (
         </p>
     </div>
     <div className="text-5xl flex justify-center gap-16 text-gray-600">
-        <AiFillGithub/>
-        <AiFillLinkedin/>
+        <a href="https://github.com/JuanitaAK">
+            <AiFillGithub />
+        </a>
+        <a href="https://www.linkedin.com/in/juanitaak/">
+            <AiFillLinkedin />
+        </a>
     </div>
-    <div style={{position:"relative"}} className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20">
-        <Image src ={deved} style={{objectFit:"cover"}} />
+    <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
+        <Image src ={deved} style={{objectFit:"cover"}} fill />
     </div>
 </section>
 );

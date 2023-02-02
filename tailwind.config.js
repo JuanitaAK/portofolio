@@ -14,6 +14,7 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins', ...defaultTheme.fontFamily.sans],
         burtons : "Burtons",
+        lato : "lato",
       },
     },
 

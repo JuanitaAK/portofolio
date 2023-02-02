@@ -1,8 +1,9 @@
 //import Image from 'next/image'
-import { Inter } from '@next/font/google'
 //import { BsFillMoonStarsFill} from "react-icons/bs"
+import { Inter } from '@next/font/google'
 import NavBar from './components/NavBar'
 import Profile from './components/Profile'
+import Stack from './components/Stack'
 
 
 
@@ -15,7 +16,8 @@ export default function Home() {
     <main className="bg-white px-10">
       <section className="min-h-screen">
        <NavBar/>
-       <Profile/>      
+       <Profile/>
+       <Stack/>      
 
       </section>   
     </main>
