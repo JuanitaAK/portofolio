@@ -14,7 +14,7 @@ import Projects from './components/Projects'
 
 export default function Home() {
   return (
-    <main className="bg-white px-10">
+    <main className="bg-white px-10 md:px-20 lg:px-40">
       <section className="min-h-screen">
        <NavBar/>
        <Profile/>
