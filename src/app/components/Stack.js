@@ -21,7 +21,7 @@ export default function Stack() {
         <div className="text-center">
             <h3 className="text-4xl py-1">Tech Stack</h3>
             {/* <Image src={css} width={50} height={50}/> ajouter image pour code  */}
-            <p className="text-md py-2 leading-8 text-gray-800">During my studies at 
+            <p className="text-center py-2 leading-8 max-w-lg mx-auto m-center text-gray-800">During my studies at 
                 <span className="text-teal-500 px-1" >
                     <a href="https://adatechschool.fr/">
                      Ada Tech School
