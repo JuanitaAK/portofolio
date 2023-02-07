@@ -1,10 +1,11 @@
 //import Image from 'next/image'
 //import { BsFillMoonStarsFill} from "react-icons/bs"
-import { Inter } from '@next/font/google';
+//import { Inter } from '@next/font/google';
 import NavBar from './components/NavBar';
 import Profile from './components/Profile';
 import Stack from './components/Stack';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 
 
@@ -19,7 +20,8 @@ export default function Home() {
        <NavBar/>
        <Profile/>
        <Stack/> 
-       <Projects/>     
+       <Projects/>
+       <Footer/>     
 
       </section>   
     </main>
