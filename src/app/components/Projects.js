@@ -38,9 +38,9 @@ export default function Projects() {
                     <ul className=" items-center grid gap-5 grid-cols-1 grid-rows-1">
                         
                         <div className="flex-col items-center p-3">
-                            <p className="text-sm text-center pb-5 leading-6 text-gray-800">
+                            <p className="text-sm text-center pb-5 leading-6 text-gray-800 ">
                             Chrome extension featuring the television schedule of the day in the United States. Group project. </p>
-                            <div className="flex justify-between gap-4"> 
+                            <div className="flex justify-between gap-4 mt-16"> 
                                 <a
                                     className="text-center gap-2 m-0 bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md mx-auto"
                                     href="https://github.com/JuanitaAK/On-air-Today">
@@ -61,9 +61,9 @@ export default function Projects() {
                         <div className="flex-col items-center p-3">
                             <p className="text-sm text-center pb-5 leading-6 text-gray-800">
                             iOS App. OOP programming in Swift and Python using Flask and Xcode. API call-creation. </p>
-                            <div className="flex justify-between gap-4"> 
+                            <div className="flex justify-between gap-7"> 
                                 <a
-                                    className="text-center gap-2 m-0 bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md mx-auto"
+                                    className="text-center gap-2 m-4 bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md mx-auto"
                                     href="https://github.com/JuanitaAK/SurfApp">
                                     Repository
                                 </a>
@@ -99,7 +99,7 @@ export default function Projects() {
                 
                 <div className="p-10 shadow-xl rounded-2xl my-5 mx-5 ">
                     <h3 className="text-2xl py-2 text-center text-gray-800">One day todo.</h3>
-                    <Image src={todo} alt="screen capture of a todo" className=" items-center py-5 relative p-5 mx-auto" />
+                    <Image src={todo} alt="screen capture of a todo" className=" items-center py-5 relative p-5 mt-9 mx-auto" />
                     <ul className=" items-center grid gap-5 grid-cols-1 grid-rows-1">
                         <div className="flex-col items-center p-3">
                             <p className="text-sm text-center pb-5 leading-6 text-gray-800">
@@ -124,7 +124,7 @@ export default function Projects() {
                         <div className="flex-col items-center p-3">
                             <p className="text-sm text-center pb-5 leading-6 text-gray-800">
                             Back-end and Front-End microblogging platform. OOP programming, MVC pattern in Php and MySQL. Laravel framework. Use of Git, GitHub and Docker. Pair programming. </p>
-                            <div className="flex justify-between gap-4"> 
+                            <div className="flex justify-between gap-4 mt-5"> 
                                 <a
                                     className="text-center gap-2 m-0 bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md mx-auto"
                                     href="https://github.com/adatechschool/JAS-Plateforme-de-microblogging">
@@ -144,7 +144,7 @@ export default function Projects() {
                         <div className="flex-col items-center p-3">
                             <p className="text-sm text-center pb-5 leading-6 text-gray-800">
                                 In a post-apocalyptic world, the player must escape from a mob of zombies. Programming in LUA language on the Pico-8 software. </p>
-                            <div className="flex justify-between gap-4"> 
+                            <div className="flex justify-between items-center m-8 gap-5 mx-auto"> 
                                 <a
                                     className="text-center gap-2 m-0 bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md mx-auto"
                                     href="https://github.com/JuanitaAK/Pico-8--michonne-s-zombelad-">
@@ -180,10 +180,6 @@ export default function Projects() {
                         </div>
                     </ul>
                 </div>  
-
-               
-
-                  
             </div>
         </section>
     );

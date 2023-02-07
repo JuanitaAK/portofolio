@@ -1,5 +1,7 @@
 //import { Inter } from "@next/font/google";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+//import {Document} from "react-pdf";
+//import cv from '../../../public/cv/cvJak.pdf';
 
 export default function NavBar() {
   return (
@@ -12,13 +14,18 @@ export default function NavBar() {
         <li>
           <a
             className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-            href="#">
+            href="#Stack">
             Stack
           </a>
           <a
             className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-            href="#">
+            href="#Projects">
             Creations
+          </a>
+          <a
+            className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
+            href="../../../public/cv/cvJak.pdf" >
+            Resume
           </a>
         </li>
       </ul>
