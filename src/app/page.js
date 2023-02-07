@@ -7,21 +7,17 @@ import Stack from './components/Stack';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 
-
-
-
-
 //const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <main className="bg-white px-10 md:px-20 lg:px-40">
       <section className="min-h-screen">
-       <NavBar/>
-       <Profile/>
-       <Stack/> 
-       <Projects/>
-       <Footer/>     
+        <NavBar/>
+        <Profile/>
+        <Stack/> 
+        <Projects/>
+        <Footer/>     
 
       </section>   
     </main>
