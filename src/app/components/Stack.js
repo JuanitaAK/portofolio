@@ -18,7 +18,7 @@ import laravel from "../../../public/stack-icons/laravel.svg";
 
 export default function Stack() {
     return (
-    <section className="font-lato sm:text-xs md:text-base ">
+    <section id='stack' className="font-lato sm:text-xs md:text-base ">
         <div className="text-center">
             <h3 className="text-4xl py-1">Tech Stack</h3>
             {/* <Image alt="icon"src={css} width={50} height={50}/> ajouter image pour code  */}

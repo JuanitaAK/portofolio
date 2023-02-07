@@ -15,12 +15,13 @@ export default function NavBar() {
         </li>
         <li>
           <a
-            className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8">            
+            className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"            
+            href="#stack">
             Stack
           </a>
           <a
             className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-            href="#Projects">
+            href="#projects">
             Creations
           </a>
           <a
@@ -30,7 +31,6 @@ export default function NavBar() {
             target="_blank"
             rel="noopener noreferrer"
             >
-            
             Resume
           </a>
         </li>

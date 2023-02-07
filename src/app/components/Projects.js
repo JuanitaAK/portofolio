@@ -13,7 +13,7 @@ import surf from '../../../public/projects/surf.png'
 
 export default function Projects() {
     return (
-        <section className="font-lato py-20 ">
+        <section id='projects' className="font-lato py-20 ">
             <div className="text-center">
                 <h2 className="text-5xl py-2 text-teal-600 font-medium">
                     Creations </h2>
