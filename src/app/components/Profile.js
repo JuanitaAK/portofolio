@@ -9,11 +9,18 @@ import deved from '../../../public/dev-ed4.png';
 
 export default function Profile() {
 return (
-<section className="pb-20 font-lato">
-    <div className="text-center">
-        <h2 className="text-5xl py-2 text-teal-600 font-medium">
-            Juanita Afanador Kowalski </h2>
-        <h3 className="text-2xl py-2"> 
+<section className="pb-20 font-lato ">
+    
+    <div className="flex justify-center">
+        <p className="  text-5xl py-2 mb-5 text-teal-600 font-medium ">
+            Juanita Afanador Kowalski </p>
+
+    </div>
+    
+    
+    <div className="text-center bg-gradient-to-r from-cyan-500 to-teal-400 m-auto px-20 py-5 rounded-md ">
+        
+        <h3 className="text-2xl text-white"> 
             Web Developer. </h3>
         <p className="text-md py-5 leading-8 text-gray-800">
             After several years of experience in the restaurant and retail industries, 
@@ -24,16 +31,17 @@ return (
             learn constantly and use my problem-solving skills. I look forward to applying my 
             technical knowledge in a challenging and positive working environment.
         </p>
+        <div className="text-5xl flex justify-center gap-16 text-gray-800">
+            <a href="https://github.com/JuanitaAK">
+                <AiFillGithub />
+            </a>
+            <a href="https://www.linkedin.com/in/juanitaak/">
+                <AiFillLinkedin />
+            </a>
     </div>
-    <div className="text-5xl flex justify-center gap-16 text-gray-600">
-        <a href="https://github.com/JuanitaAK">
-            <AiFillGithub />
-        </a>
-        <a href="https://www.linkedin.com/in/juanitaak/">
-            <AiFillLinkedin />
-        </a>
     </div>
-    <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
+  
+    <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden">
         <Image src ={deved} style={{objectFit:"cover"}} />
     </div>
 </section>

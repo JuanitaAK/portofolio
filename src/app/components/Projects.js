@@ -13,17 +13,17 @@ import surf from '../../../public/projects/surf.png'
 
 export default function Projects() {
     return (
-        <section id='projects' className="font-lato py-20 ">
+        <section id='projects' className="font-lato py-10 ">
             <div className="text-center">
-                <h2 className="text-5xl py-2 text-teal-600 font-medium">
-                    Creations </h2>
-                <div className="py-5 relative flex justify-center ">
+                <div className=" relative flex justify-center mx-10 ">
+                    <h2 className="text-5xl py-1 gap-5 justify-center text-teal-600 font-medium mx-10 ">
+                    Creations </h2>             
                     <Image src={code} alt=" icon " width={100} height={100} />
                 </div>
                 
                 <h3 className="text-2xl py-2"> 
                     Web Projects </h3>
-                <p className="text-md py-5 leading-8 text-gray-800">
+                <p className="text-md leading-8 text-gray-800">
                 Here are a few of the projects I worked on. 
                 </p>
             </div>
@@ -33,7 +33,7 @@ export default function Projects() {
                 
 
             <div className="p-10 shadow-xl rounded-2xl my-5 mx-5 ">
-                    <h3 className="text-2xl py-2 text-center text-gray-800">Surf Spots</h3>
+                    <h3 className=" font-bold text-2xl py-2 text-center text-gray-800">Surf Spots</h3>
                     <Image src={surf} alt="screen capture of surf spot app" className=" items-center py-5 relative p-5 mx-auto" />
                     <ul className=" items-center grid gap-5 grid-cols-1 grid-rows-1">
                         
@@ -53,7 +53,7 @@ export default function Projects() {
                 </div>
                 
                 <div className="p-10 shadow-xl rounded-2xl my-5 mx-5 ">
-                    <h3 className="text-2xl py-2 text-center text-gray-800"> On Air Today</h3>
+                    <h3 className="font-bold text-2xl py-2 text-center text-gray-800"> On Air Today</h3>
                     <Image src={onAir} alt="todo list screen capture" className=" items-center py-5 relative p-5 mx-auto" />
                     <ul className=" items-center grid gap-5 grid-cols-1 grid-rows-1">
                         
@@ -74,7 +74,7 @@ export default function Projects() {
 
 
                 <div className="p-10 shadow-xl rounded-2xl my-5 mx-5 ">
-                    <h3 className="text-2xl py-2 text-center text-gray-800">Michonne's Zombalad</h3>
+                    <h3 className="font-bold text-2xl py-2 text-center text-gray-800">Michonne's Zombalad</h3>
                     <Image src={pico} alt="screen capture of a video-game" className=" items-center py-5 relative p-5 mx-auto" />
                     <ul className=" items-center grid gap-5 grid-cols-1 grid-rows-1">
                         
@@ -100,7 +100,7 @@ export default function Projects() {
                  
 
                 <div className="p-10 shadow-xl rounded-2xl my-5 mx-5 ">
-                    <h3 className="text-2xl py-2 text-center text-gray-800">Old fourniture for a new life.</h3>
+                    <h3 className="font-bold text-2xl py-2 text-center text-gray-800">Old fourniture for a new life.</h3>
                     <Image src={ecom} alt="image of e-commerce website"  className=" items-center py-5 relative p-5 mx-auto" />
                     <ul className=" items-center grid gap-5 grid-cols-1 grid-rows-1">
                         
@@ -124,7 +124,7 @@ export default function Projects() {
                 </div> 
                 
                 <div className="p-10 shadow-xl rounded-2xl my-5 mx-5 ">
-                    <h3 className="text-2xl py-2 text-center text-gray-800">Weather Website </h3>
+                    <h3 className="font-bold text-2xl py-2 text-center text-gray-800">Weather Website </h3>
                     <Image src={weather} alt="screen capture of a weather webpage"  className=" items-center py-5 relative p-5 mt-5 mx-auto" />
                     <ul className=" items-center grid gap-5 grid-cols-1 grid-rows-1">
                         
@@ -144,7 +144,7 @@ export default function Projects() {
                 </div>
 
                 <div className="p-10 shadow-xl rounded-2xl my-5 mx-5 ">
-                    <h3 className="text-2xl py-2 text-center text-gray-800">Meme World</h3>
+                    <h3 className="font-bold text-2xl py-2 text-center text-gray-800">Meme World</h3>
                     <Image src={meme} alt="screen capture of a browser extension " className=" items-center py-5 relative p-5 mx-auto" />
                     <ul className=" items-center grid gap-5 grid-cols-1 grid-rows-1">
                         
@@ -166,7 +166,7 @@ export default function Projects() {
                
 
                 <div className="p-10 shadow-xl rounded-2xl my-5 mx-5 ">
-                    <h3 className="text-2xl py-2 text-center text-gray-800">One day todo.</h3>
+                    <h3 className="font-bold text-2xl py-2 text-center text-gray-800">One day todo.</h3>
                     <Image src={todo} alt="screen capture of a todo" className=" items-center py-5 relative p-5 mt-9 mx-auto" />
                     <ul className=" items-center grid gap-5 grid-cols-1 grid-rows-1">
                         <div className="flex-col items-center p-3">
