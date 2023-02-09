@@ -12,7 +12,7 @@ return (
 <section className="pb-20 font-lato ">
     
     <div className="flex justify-center">
-        <p className="  text-5xl py-2 mb-5 text-teal-600 font-medium ">
+        <p className=" text-5xl py-2 mb-5 text-teal-600 font-medium  mx-auto">
             Juanita Afanador Kowalski </p>
 
     </div>
@@ -41,8 +41,8 @@ return (
     </div>
     </div>
   
-    <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden">
-        <Image src ={deved} style={{objectFit:"cover"}} />
+    <div className="flex relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden">
+        <Image className="" src ={deved} alt={"avatar of a girl"} style={{objectFit:"cover"}} />
     </div>
 </section>
 );

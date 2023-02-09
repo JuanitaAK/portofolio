@@ -29,7 +29,7 @@ export default function Stack() {
                     </a>
                 </span> in Paris I worked with different types of languages, libraries and frameworks.</p>
         </div>
-        <div className=" relative p-10 shadow-xl rounded-2xl my-5 mx-5">
+        <div className=" relative text-xs sm:text-base p-10 shadow-xl rounded-2xl my-5 mx-auto">
             <ul className=" grid gap-10 grid-cols-5 grid-rows-3">
                 <div >
                     <Image alt="icon"src={css} width={50} height={50}/>
