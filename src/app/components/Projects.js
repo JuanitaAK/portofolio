@@ -15,10 +15,10 @@ export default function Projects() {
     return (
         <section id='projects' className="font-lato py-10 ">
             <div className="text-center">
-                <div className=" relative flex justify-center mx-10 ">
-                    <h2 className="text-5xl py-1 gap-5 justify-center text-teal-600 font-medium mx-10 ">
+                <div className="relative flex justify-center mx-auto ">
+                    <h2 className="text-5xl py-1 gap-5 justify-center text-teal-600 font-medium mr-5">
                     Creations </h2>             
-                    <Image src={code} alt=" icon " width={100} height={100} />
+                    <Image src={code} alt="icon " width={100} height={100} />
                 </div>
                 
                 <h3 className="text-2xl py-2"> 
