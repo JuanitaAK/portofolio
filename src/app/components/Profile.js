@@ -11,18 +11,18 @@ export default function Profile() {
 return (
 <section className="pb-20 font-lato ">
     
-    <div className="flex justify-center">
-        <p className=" text-5xl py-2 mb-5 text-teal-600 font-medium  mx-auto">
+    <div className="flex">
+        <p className=" text-5xl text-center py-2 mb-5 text-teal-600 font-medium mx-auto">
             Juanita Afanador Kowalski </p>
 
     </div>
     
     
-    <div className="text-center bg-gradient-to-r from-cyan-500 to-teal-400 m-auto px-20 py-5 rounded-md ">
+    <div className="text-center bg-gradient-to-r from-cyan-500 to-teal-400  px-10 py-5 rounded-md ">
         
         <h3 className="text-2xl text-white"> 
             Web Developer. </h3>
-        <p className="text-md py-5 leading-8 text-gray-800">
+        <p className="text-md py-5 leading-8 text-gray-800 m-auto">
             After several years of experience in the restaurant and retail industries, 
             I am currently reorienting myself to become a web developer. I am currently 
             studying in a programming school and I am looking for a company where I can 
