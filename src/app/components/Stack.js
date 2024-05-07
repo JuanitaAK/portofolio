@@ -19,20 +19,18 @@ import laravel from "../../../public/stack-icons/laravel.svg";
 export default function Stack() {
   return (
     <section id="stack" className="font-lato sm:text-xs md:text-base ">
-      <div className="text-center">
-        <h3 className="text-4xl py-1">Tech Stack</h3>
-        <p className="text-center py-2 leading-8 max-w-lg mx-auto m-center text-gray-800">
-          During my time at Sanofi's Digital Accelerator and my studies at
-          <span className="text-teal-500 px-1">
-            <Link href="https://adatechschool.fr/">Ada Tech School</Link>
-          </span>
-          in Paris I worked with different types of languages, libraries and
-          frameworks.
-        </p>
-      </div>
-      <div className=" relative text-xs sm:text-base p-10 shadow-xl rounded-2xl my-5 mx-auto">
-        <ul className=" grid gap-10 grid-cols-5 grid-rows-3">
-          <div className="flex flex-col items-center gap-4">
+      <h3 className="text-4xl py-1 text-center">Tech Stack</h3>
+      <p className="text-center py-2 leading-8 max-w-2xl mx-auto m-center mb-6 text-gray-800">
+        During my time at Sanofi's Digital Accelerator and my studies at
+        <span className="text-teal-500 px-1">
+          <Link href="https://adatechschool.fr/">Ada Tech School</Link>
+        </span>
+        in Paris I worked with different types of languages, libraries and
+        frameworks.
+      </p>
+      <div className="relative text-center text-xs sm:text-base p-3 shadow-xl rounded-2xl my-6 mx-auto">
+        <ul className=" grid gap-3 md:gap-5 grid-cols-5 grid-rows-3">
+          <div className="flex flex-col items-center align-middle gap-4">
             <Image alt="icon" src={css} width={50} height={50} />
             <p className="text-center mx-auto text-gray-800">CSS</p>
           </div>
@@ -42,7 +40,7 @@ export default function Stack() {
           </div>
           <div className="flex flex-col items-center gap-4">
             <Image alt="icon" src={javascript} width={50} height={50} />
-            <p className="text-center mx-auto text-gray-800"> JavaScript</p>
+            <p className="text-center mx-auto text-gray-800">JavaScript</p>
           </div>
           <div className="flex flex-col items-center gap-4">
             <Image alt="icon" src={python} width={50} height={50} />

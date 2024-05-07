@@ -13,7 +13,7 @@ import ai from "../../../public/projects/aiStory.png";
 
 export default function Projects() {
   return (
-    <section id="projects" className="font-lato mt-6">
+    <section id="projects" className="font-lato my-20">
       <div className="text-center">
         <div className="relative flex justify-center mx-auto">
           <h2 className="text-5xl py-1 gap-5 justify-center text-teal-600 p-3 font-medium mr-5">

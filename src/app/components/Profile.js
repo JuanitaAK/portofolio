@@ -6,7 +6,7 @@ export default function Profile() {
   return (
     <section className="pb-20 font-lato ">
       <div className="flex">
-        <p className=" text-5xl text-center py-2 mb-5 text-teal-600 font-medium mx-auto">
+        <p className="text-5xl text-center py-2 my-10 text-teal-600 font-medium mx-auto">
           Juanita Afanador Kowalski{" "}
         </p>
       </div>
